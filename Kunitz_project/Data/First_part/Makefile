@@ -15,8 +15,11 @@ SHELL := /bin/bash
 ORD_CLUST = python ../../Scripts/ClustID_resol.py  # Script that order the ID in a clust according to their resolution 
 FASTA_EXTRAC = python ../../Scripts/Extract_ProtSeq_PDB.py  # Script that give a list od ID extract their fasta sequence from the PDB_seqres.db 
 
-#Databases:
-DB := ../db/pdb_seqres.db
+# Databases:
+# The precise release of the PDB database used is Apr 30_2019.
+# The user must download the database since its size is too large to be uploaded on Github 
+DB := ../db/pdb_seqres.db 
+
 
 # Blastclust parameters:
 COVERAGE =95

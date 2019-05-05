@@ -21,6 +21,10 @@ NORMALIZER = python ../Scripts/Normalized_eva.py
 ROC_CURVE = python ../Scripts/ROC_curve.py
 
 # Database:
+# The precise release of the database used are:
+# PDB: Apr 30_2019
+# Uniprot/SwissProt: 2019_03
+# The user must download the databases since their size are too large to be uploaded on Github 
 DB_UNI := ../db/uniprot_sprot.fasta
 DB_PDB := ../db/pdb_seqres.db
 
